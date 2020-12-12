@@ -360,8 +360,6 @@ double LRR::getBetaObjGradient() {
         for (size_t i = 0; i < model->k; i++) {
             orating += vct.alpha[i] * vct.pred[i];
         }
-        cout << "orating " << orating << endl;
-        exit(-6);
 
         likelihood += orating * orating;
         orating /= model->delta;
