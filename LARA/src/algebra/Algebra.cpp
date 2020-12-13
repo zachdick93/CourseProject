@@ -4,10 +4,15 @@
 
 using std::cout;
 using std::endl;
+/*
+	This code is a quick filler to replace a linear algebra library used in the original project. Sources of this code below.
+		Source of the determinant function logic: https://www.tutorialspoint.com/cplusplus-program-to-compute-determinant-of-a-matrix
+		Source of the logic for the other functions: https://www.geeksforgeeks.org/adjoint-inverse-matrix/
+*/
+
 
 namespace algebra {
 double Algebra::determinant(const vector<vector<double>> &matrix, size_t n) {
-    // Source of determinant logic: https://www.tutorialspoint.com/cplusplus-program-to-compute-determinant-of-a-matrix
     int det = 0;
     vector<vector<double>> submatrix(n-1);
     if (n == 2)

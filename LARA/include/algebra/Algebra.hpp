@@ -6,6 +6,12 @@
 
 using std::vector;
 
+/*
+	This code is a quick filler to replace a linear algebra library used in the original project. Sources of this code below.
+	    Source of the determinant function logic: https://www.tutorialspoint.com/cplusplus-program-to-compute-determinant-of-a-matrix
+	    Source of the logic for the other functions: https://www.geeksforgeeks.org/adjoint-inverse-matrix/
+*/
+
 namespace algebra {
 class Algebra {
 public:
