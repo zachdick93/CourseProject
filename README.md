@@ -1,3 +1,6 @@
 # CourseProject
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+ATTENTION: The presentation slides have a voice narration added to it, so make sure to open in powerpoint and click start presentation!
+The document "CODE DOCUMENTATION.docx" has the documentation to go with this project.
+The document "manual.pdf" is the original document provided with the original Java source code from the previous implementation of this LRR model.
+
